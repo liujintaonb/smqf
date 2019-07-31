@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1.0"/>
+    <title>水木清芬</title>
+    <link rel="stylesheet" href="http://api.map.baidu.com/library/SearchInfoWindow/1.5/src/SearchInfoWindow_min.css"/>
+    <!-- <link rel="ico" href="./src/img/logo/logo.ico" type="image/x-ico"/> -->
+    <!-- <link rel="icon" href="./src/img/logo/logo.ico" type="image/x-icon"/> -->
+    <!-- <link rel="shortcut icon" type="image/x-icon" href="./src/img/logo/logo.ico"/> -->
+    <link type="favicon" rel="shortcut icon" href="./static/logo.ico" rel="external nofollow" />
+  </head>
+  <body style="margin:0">
+    <div id="app"></div>
+    <!-- built files will be auto injected -->
+    <script type="text/javascript"src="http://api.map.baidu.com/api?v=2.0&ak=4Qv6Gidj0l6e1QeZH6zNN1kcKaW8qcy4"></script>
+    <script
+      type="text/javascript"
+      src="http://api.map.baidu.com/library/SearchInfoWindow/1.5/src/SearchInfoWindow_min.js"
+    ></script>
+    <script type="text/javascript">
+        window.addEventListener('scroll',(e)=>{
+      const ele=document.getElementById("bannerBox")
+      let scrollTop = window.pageYOffset 
+                      || document.documentElement.scrollTop  
+                      || document.body.scrollTop  
+                      || 0;
+      if(!scrollTop){
+        ele.classList.remove("bannerBack");
+      }
+      else{
+        if(ele.getAttribute("class")=="Communal-box-bannerfooter")
+        ele.classList.add("bannerBack");
+      }
+    })
+    </script>
+
+  </body>
+</html>
