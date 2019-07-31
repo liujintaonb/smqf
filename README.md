@@ -1,10 +1,13 @@
-# y
+
+
 
 > A Vue.js project
 
 ## Build Setup
 
 ``` bash
+# git clone
+# cd smqf
 # install dependencies
 npm install
 
