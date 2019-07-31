@@ -35,12 +35,12 @@ export default {
       ],
       zhuanjiatuanduiArr:[],
       shipinArr:[
-        {imgSrc:require("../img/index-mingshi1.png")},
-        {imgSrc:require("../img/index-mingshi2.png")},
-        {imgSrc:require("../img/index-mingshi3.png")},
-        {imgSrc:require("../img/index-mingshi4.png")},
-        {imgSrc:require("../img/index-mingshi5.png")},
-        {imgSrc:require("../img/index-mingshi5.png")},
+        {title:'小学词汇',imgSrc:require("../img/index-mingshi1.png")},
+        {title:'初中词汇',imgSrc:require("../img/index-mingshi2.png")},
+        {title:'高中词汇',imgSrc:require("../img/index-mingshi3.png")},
+        {title:'KET PET FEC词汇',imgSrc:require("../img/index-mingshi4.png")},
+        {title:'托福雅思词汇',imgSrc:require("../img/index-mingshi5.png")},
+        {title:'考研词汇',imgSrc:require("../img/index-mingshi5.png")},
     ]
     }
   },

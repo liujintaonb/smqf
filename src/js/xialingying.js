@@ -28,6 +28,9 @@ export default {
     },
     famousteacher() {
       this.$router.push("/famousteacher");
-    }
+    },
+    aboutus(){
+      this.$router.push("/aboutus")
+  },
   }
 };

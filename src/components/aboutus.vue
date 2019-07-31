@@ -28,8 +28,66 @@
        </div>
   </div>
  <!-- <B><mapB> -->
-
  </div>
+
+ <div class="women-mubiao">
+   <div class="content-mubiao content">
+     <div class="top"><div>我们的目标</div></div>
+     <div class="bottom">
+       <div>
+       <p>教育要创造价值,崇尚奉献</p>
+       <p>注重基础,才能更好地生存</p>
+       </div>
+       </div>
+   </div>
+   <div class="content-mubiao content">
+     <div class="top"><div>我们的理念</div></div>
+     <div class="bottom">
+       <div>
+       <p>教育要创造价值,崇尚奉献</p>
+       <p>注重基础,才能更好地生存</p>
+       </div>
+     </div>
+   </div>
+   <div class="content-mubiao content">
+     <div class="top"><div>我们的特色</div></div>
+     <div class="bottom">
+       <div>
+       <p>教育要创造价值,崇尚奉献</p>
+       <p>注重基础,才能更好地生存</p>
+       </div>
+     </div>
+   </div>
+   <div class="content-mubiao content">
+     <div class="top"><div>我们的理想</div></div>
+     <div class="bottom">
+       <div>
+       <p>教育要创造价值,崇尚奉献</p>
+       <p>注重基础,才能更好地生存</p>
+       </div>
+     </div>
+   </div>
+   <div class="content-mubiao content">
+     <div class="top"><div>我们的方向</div></div>
+     <div class="bottom">
+       <div>
+       <p>教育要创造价值,崇尚奉献</p>
+       <p>注重基础,才能更好地生存</p>
+       </div>
+     </div>
+   </div>
+   <div class="content-mubiao content">
+     <div class="top"><div>教师素养</div></div>
+     <div class="bottom">
+       <div>
+       <p>教育要创造价值,崇尚奉献</p>
+       <p>注重基础,才能更好地生存</p>
+       </div>
+     </div>
+   </div>
+ </div>
+
+
  <div class="register-box-pinpai">
    <div class="title">
    <div class="title-title">品牌介绍</div> 
@@ -486,6 +544,65 @@ iPad
       height: 100%;
       // background: red
     }
+  }
+}
+
+.women-mubiao{
+  width: 90%;
+  margin: 0 auto;
+  overflow: hidden;
+  .content:hover .bottom{
+    display: block;
+  }
+  .content{
+     float: left;
+     width: 23.333%;
+     margin: 30px 5%;
+     height: 200px;
+     background:#2a7a2a;
+     position: relative;
+     .top{
+       background: #ccc5c5;
+       width: 100%;
+       height: 100%;
+       div{
+         width:200px;
+         height: 100px;
+         font-size: 30px;
+       text-align: center;
+       letter-spacing:6px;
+       color: #3aca3a;
+       position: absolute;
+       left:50%;
+       top: 50%;
+       margin-top:-50px;
+       margin-left: -100px;
+       }
+     }
+     .bottom{
+       display: none;
+       position: absolute;
+       top:0%;
+       left:0;
+       width: 100%;
+       height: 100%;
+       background: #116911;
+       div{
+         width:300px;
+         height:100px;
+         position: absolute;
+         top: 50%;
+         left: 50%;
+         margin-left: -150px;
+         margin-top: -50px;
+         p{
+      text-align: center;
+       font-size: 22px;
+       letter-spacing: 2px;
+       color:white;
+         }
+       }
+     }
   }
 }
 

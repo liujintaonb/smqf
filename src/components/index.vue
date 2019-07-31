@@ -127,7 +127,7 @@
       <div class="index-box-content-mingshi-footer-text">
         <img v-lazy="item.imgSrc" alt="">
         <span class="span-color"></span>
-        <span class="span-text">小学英语</span>  
+        <span class="span-text">{{item.title}}</span>  
         <div class="div-text">小学英语交互小学英语交互小学英语交互小学英语交互小学英语交互小学英语交互小学英语交互小学英语交互小学英语交互</div>
         <div class="div-btn" @click="getVideoShow(index)">免费试听</div>
       </div>
@@ -187,7 +187,7 @@
       </div>
       <div class="index-box-content-zoujinxuexiao-text">
         <span></span>
-        永昌第三中学
+        许昌第三中学
       </div>
       <div class="index-box-content-zoujinxuexiao-text">
         <span></span>
