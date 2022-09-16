@@ -12,7 +12,7 @@
   "dependencies": {
     "ajax": "0.0.4",
     "axios": "^0.18.0",
-    "bootstrap": "^3.3.0",
+    "bootstrap": "^3.4.1",
     "element-ui": "^2.6.1",
     "http": "0.0.0",
     "iview": "^3.2.2",
